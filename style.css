@@ -95,13 +95,7 @@ box {
       width: 220px;
   }
   
-  #close-CSS {background-color: rgb(0, 89, 255)
-    background-image image(images/Screen Shot 2019-04-08 at 10.08.43 AM.png)
-      background-size: 100px 130px;
-      height: 134px;  
-      width: 104px;
   
-  }
 .bgc {
   background-color: rgb(0, 89, 255);
 }
@@ -126,17 +120,6 @@ IMG.displayed {
     background: url(TRbanner.gif) no-repeat;
     text-indent: -999em;
     text-decoration: none;}
-
-    .tew {
-      style= "position: absolute;
-      right: 800px;
-      top: 300px;
-      display: block;
-      height: 200px;
-      width: 200px;
-      background: url(TRbanner.gif) no-repeat;
-      text-indent: -999em;
-      text-decoration: none;}
 
 
 
