@@ -21,11 +21,7 @@ box {
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
 
-  [class*="col-"] {
-    float: left;
-    padding: 15px;
-    
-  }
+  
 
   .a {
       font-size: 100px;
@@ -122,9 +118,18 @@ IMG.displayed {
     text-decoration: none;}
 
 
-
+.res{
+  box-sizing: border-box;
+}
     
 
+
+
+
+
+
+
+  
 
 
 
