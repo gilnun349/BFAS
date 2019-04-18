@@ -43,8 +43,13 @@ box {
   font-weight: bold;
   font-family: 'Times New Roman', Times, serif;
   color: black
-  
-  
+  }
+
+.d{font-family: 'Permanent Marker', cursive;
+  font-size: 20px;
+
+
+
 }
 
 
@@ -125,12 +130,54 @@ IMG.displayed {
 
 
 
+.navbar2 {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #f1f1f1;
+  color: black;
+}
+
+.navbar a.active2 {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.main2 {
+  padding: 16px;
+  margin-bottom: 30px;
+}
 
 
-
-
+.bd{
+  border: 10px;
+}
   
 
-
+.footer {
+  width: 100%;
+  height: 200px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  z-index: 12;
+  background-color: rgb(134, 147, 158);
+  position: fixed;
+  bottom: 0;
+}
 
   ; 
