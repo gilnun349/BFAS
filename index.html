@@ -32,6 +32,12 @@
 
   <link href="https://fonts.googleapis.com/css?family=Fascinate+Inline" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+
+
+  
+  
+  <link rel="stylesheet" href="http://www.jacklmoore.com/colorbox/example1/colorbox.css" />
+
 </head>
 
 
@@ -68,13 +74,7 @@
       <li class="nav-item"><a class="nav-link" href="sign.html">Become A Member</a></li>
       <li class="nav-item"><a class="nav-link" href="favorite.html">Our Favorite Rescues</a></li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink"
-          data-toggle="dropdown">Dropdown link</a>
-        <div class="dropdown-menu dropdown-menu-right">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
+        
       </li>
     </ul>
   </div>
@@ -97,6 +97,28 @@
 <body background="images/background.png">
 
 
+  
+  <p> <span id="seconds"></span> </p>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="http://www.jacklmoore.com/colorbox/jquery.colorbox.js"></script>
+  <script>
+    function openColorBox(){
+      $.colorbox({iframe:true, width:"80%", height:"80%", href: "animals.html" ,overlayClose: false  });
+    }
+    
+    setTimeout(openColorBox, 2000);
+
+    var seconds = 5,
+        i = setInterval(countDown, 1000);
+
+        
+  </script>
+
+
+
+
+
 
 
 
@@ -105,8 +127,7 @@
   <div class="b bgc res ">
    <a href="donation.html"> <button class=" col-sm-12 col-md-6 col-lg-4 b bgc res" id="close-image">Donate</button></a>
    <a href="adopt.html"> <button class=" col-sm-12 col-md-6 col-lg-4 b bgc res" id="close-image">Adopt</button></a>
-    <button class=" col-sm-12 col-md-6 col-lg-4 b bgc res" id="close-image">Stories</button>
-
+    <a href="stories.html"> <button class=" col-sm-12 col-md-6 col-lg-4 b bgc res" id="close-image">Stories</button></a>
    <a href="goal.html"><button class=" col-sm-12 col-md-6 col-lg-4 b bgc res" id="close-image">Our Goals</button></a>   
    <a href="event.html"><button class=" col-sm-12 col-md-6 col-lg-4 b bgc res" id="close-image">Events</button></a> 
     <a href="about.html"> <button class=" col-sm-12 col-md-6 col-lg-4 b bgc res" id="close-image">About Us</button></a>
@@ -116,8 +137,8 @@
   <a href="new.html"> <button class="col-sm-12 col-med-6 col-lg-6 b res bgc .bd" id="close-image"><img src="images/news2.png"> Click here
     for the latest news</button></a>
 
-  <button class="col-sm-12 col-med-6 col-lg-6 b bgc res .bd" id="close-image"><img src="images/dogcat.jpg"> Sponsor A
-    Pet</button>
+  <a href="sponsor.html"> <button class="col-sm-12 col-med-6 col-lg-6 b bgc res .bd" id="close-image"><img src="images/dogcat.jpg"> Sponsor A
+    Pet</button></a>
 
 
   <a href="kill.html"> <button class="col-sm-12 col-md-6 col-lg-6 b res bgc .bd" id="close-image"><img src="images/needl.png"> No Kill
@@ -183,8 +204,19 @@
 <nav class="navbar navbar-light navbar-expand-lg navbar-template .footer col-12"
   style="  bottom: 0px; background-color: lightblue ">
   <a href="https://gilnun349.github.io/BFAS/#home" class="active2">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
+  <a href="new.html">News</a>
+  <a href="contacts.html">Contact</a>
+
+  <div class="d-flex flex-row order-2 order-lg-3">
+      <ul class="navbar-nav flex-row">
+        <li class="nav-item"><a class="nav-link px-2" href="https://www.facebook.com/BFAS-285004709110888/?modal=admin_todo_tour"><span class="fab fa-facebook"></span></a></li>
+        <li class="nav-item"><a class="nav-link px-2" href="https://twitter.com/BFAS16"><span
+              class="fab fa-twitter"></span></a></li>
+        <li class="nav-item"><a class="nav-link px-2" href="https://www.youtube.com/channel/UCuZUSKAxEB_1l9hBpxEK_zQ"><span class="fab fa-youtube"></span></a></li>
+        <li class="nav-item"><a class="nav-link px-2" href="https://www.instagram.com/bestfriendsanimalsociety/?hl=en"><span class="fab fa-instagram"></span></a></li>
+      </ul>
+      
+    </div>
 
 </nav>
 
